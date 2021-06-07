@@ -1,0 +1,33 @@
+{
+  "name": "xkcd-proxy",
+  "version": "1.0.0",
+  "description": "This will be aproxy to consume xkcd api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "micro-dev",
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanPabloOlaya/xxkcd-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "node",
+    "xkcd"
+  ],
+  "author": "Juan Pablo Olaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanPabloOlaya/xxkcd-proxy/issues"
+  },
+  "homepage": "https://github.com/JuanPabloOlaya/xxkcd-proxy#readme",
+  "dependencies": {
+    "micro": "^9.3.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
