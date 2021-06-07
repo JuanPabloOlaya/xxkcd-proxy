@@ -11,7 +11,6 @@ app.get('/:comicId', async (req, res) => {
   } else {
     response = await axios(`https://xkcd.com/${comicId}/info.0.json`);
   }
-
   res.send(response.data);
 });
 
