@@ -9,7 +9,7 @@
   "routes": [
     {
       "src": "/(?<id>[^/]*)",
-      "dest": "/$id"
+      "dest": "/index.js?clientId=$id"
     }
   ]
 }
